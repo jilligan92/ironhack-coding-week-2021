@@ -1,0 +1,30 @@
+/* Comments */
+/* Selectors */
+h1 {
+    color:purple;
+    text-decoration: underline;
+    font-size: 100px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .unicorn {
+            color: blue;
+            background-color: burlywood;
+            padding: 20px 5px; /* 20px is top and bottom, 5px is left and right */
+                               /* or put values clockwise 20px 5px 10px 3px */
+        } 
+#realunicorn {
+    color:blueviolet
+}
+
+  /* Universal selectors */
+
+   /* Overriding default settings */
+   html, body {
+       margin: 0;
+       padding: 0;
+       font-family: Helvetica, sans-serif;
+   }
