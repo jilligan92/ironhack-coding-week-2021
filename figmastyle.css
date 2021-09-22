@@ -10,8 +10,15 @@ header {
     margin: 20px
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 #navlogo {
     width: 40px;
+    justify-content: flex-start;
 }
 
 .topnav a {
@@ -38,8 +45,30 @@ button {
 }
 
 /* main */
+
+#sectionone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* not sure if needed */
+    margin-bottom: 100px;
+}
+
+#tryfigma1 {
+    margin: 20px;
+}
+
 #firstvid {
-    width: 350px; /* that looks really small tho */
+    width: 900px;
+}
+
+#sectiontwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#sectiontwosub {
+    margin: 100px 0px 0px 0px; /* different way to center content */
 }
 
 p { /* now this applies to all paragraphs - review later */
@@ -70,10 +99,25 @@ ul {
     background-color: #ffc700;
     margin-top: 100px;
     margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 #yellowdiv {
+    flex-direction: column;
     max-width: 550px;
+    margin: 130px 0px 0px 0px; /* different way to center content horizonatlly */
+    align-items: flex-start;
+}
+
+#sectionthree {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#secthreesub {
+    margin: 70px 0px 0px 0px; /* different way to center content */
 }
 
 #thirdvid {
@@ -81,16 +125,22 @@ ul {
 }
 
 .communitysec {
-    background-color: black;
+    background-color: black; /* black bg includes the signup section, why? */
     color: white;
-    text-align: center; /* paragraph doesnt align */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
-
+#secimages img{ /* why does it not apply? */
+    margin: 20px;
+}
 .communitysec img
 {
     max-width: 400px;
     border-radius: 10px;
-    margin: 20px
+    margin: 20px;
     object-fit: contain;
 }
 
@@ -102,8 +152,30 @@ ul {
 
 .signup {
     margin: 40px 50px 40px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tryfigma {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+#or {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
 input {
 margin: 10px;
 border: solid;
@@ -116,8 +188,27 @@ padding-left: 12px;
 
 footer{
     background-color: #fafafa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-
 footer section {
     margin: 50px;
+    flex-direction: column;
+    align-content: center;
+}
+
+.fa-twitter-square {
+    margin-right: 10px;
+}
+.fa-youtube
+{
+    margin-right: 10px;
+}
+.fa-instagram-square
+{
+    margin-right: 10px;
+}
+.fa-facebook {
+    margin-right: 10px;
 }
