@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="figmastyle.css">
+    <script src="https://kit.fontawesome.com/4c3e2b57d7.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>figma.com</title>
@@ -10,8 +11,8 @@
 <body>
 <header>
 <!-- Follow the steps in Part 1 for this section-->
-        <img id="navlogo" width="50" src="https://tinyurl.com/figma-image" alt="Figma Logo">
         <nav>
+            <img id="navlogo" src="https://tinyurl.com/figma-image" alt="Figma Logo">
         <div class="topnav">
             <a>Products</a>
             <a>Entreprise</a>
@@ -27,16 +28,17 @@
 
 <main>
 <!-- Follow the steps in Part 2 for this section-->
-    <section>
+    <section id="sectionone">
         <video id="firstvid" autoplay loop>
         <source src=https://tinyurl.com/figma-main-video type="video/mp4"></video>
             <p>Figma connects everyone in the design process so teams can deliver better products, faster.</p>
             <a href="https://www.google.com" target="__blank">
-                <button type="button">Try Figma for free</button></a>
+                <button id="tryfigma1" type="button">Try Figma for free</button></a>
    </section>
 
-   <section>
+   <section id="sectiontwo">
     <video id="secondvid" autoplay loop src="https://tinyurl.com/figma-middle-1"></video>
+    <section id="sectiontwosub">
     <h2>Design for the web made easy</h2>
     <p>Figma was built for the future of web. That’s why you’ll see features you won’t find elsewhere.</p>
     <ul>
@@ -46,18 +48,19 @@
         <li>Be expressive with OpenType: ap into advanced font features to fully express your brand</li>
     </ul>
    </section>
+</section>
 
    <section class="yellowsec">
 <div id="yellowdiv"><h2>A design platform for scale</h2>
 <p>Great design has the potential to differntiate your product and your brand. But great design can't happen in silo. Figma brings product teams together for a faster and inclusive design workflow.</p>
 <a><button>Request a demo</button></a></div>
-
-<video width="400" autoplay loop src="https://tinyurl.com/figma-org"></video>
+<video autoplay loop src="https://tinyurl.com/figma-org"></video>
 </section>
 
-<section>
+<section id="sectionthree">
     <video id="thirdvid" autoplay loop src="https://tinyurl.com/figma-middle-2"></video>
- <h2>Automate and augment your work with Plugins</h2>
+<section id="secthreesub">
+    <h2>Automate and augment your work with Plugins</h2> <!-- why does title not break??-->
 <p>Remove repetitive tasks, bring in data, and power custom workflows.
 <ul>
 <li><b>Plugins for everything:</b>Stock imagery, flow diagrams, color accessibility, charts, icons, and more.</li>
@@ -65,20 +68,25 @@
 <li><b>Private plugins:</b>Organization customers can create and distribute private plugins within their company.</li> 
 </ul>
 </section>
+</section>
 
 <section class="communitysec">
     <h2>Join the community</h2>
     <p>Learn from others, share your work, and extend your tool with a diverse designers, plugin creators, researchers, illustrators, content writers, and many more from around the world.</p>
+    <section id="secimages">
     <img src="https://tinyurl.com/fig-community-1" alt="Spotify">
     <img src="https://tinyurl.com/fig-community-2" alt="Spotify">
     <img src="https://tinyurl.com/fig-community-3" alt="Spotify">
+    </section>
     <a><button id="invertbutton">Browse Figma community</button></a>
 </section>
 
 <section class="signup">
-    <h1>Try Figma for free</h1>
-    <a> <button>Continue with Google</button></a>
-    <p>or</p>
+    <section class="sectionfivesub">
+    <h1 id="tryfigma">Try Figma for free</h1>
+    <a id="google"> <button>Continue with Google</button></a>
+    <p id="or" >or</p>
+    </section>
     <form>
         <input type="text" placeholder="Email" name="email" required>
         <input type="password" placeholder="Password" name="password" required>
@@ -92,10 +100,10 @@
 <!-- Follow the steps in Part 3 for this section-->
 <section>
 <img src="https://tinyurl.com/figma-svg" alt="figma logo">
-<p>Twitter</p>
-<p>Youtube</p>
-<p>Instagram</p>
-<p>Facebook</p>
+<p><i class="fab fa-twitter-square"></i>Twitter</p>
+<p><i class="fab fa-youtube"></i>Youtube</p>
+<p><i class="fab fa-instagram-square"></i>Instagram</p>
+<p><i class="fab fa-facebook"></i>Facebook</p>
 <p>Manage cookies</p>
 </section>
 <section>
